@@ -1,6 +1,8 @@
 package com.calculator;
 
 public interface CalculatorService {
-	 void additionService();
+	 double additionService(double a,double c);
+	 
+	 double substractionService(double a,double c);
 
 }
