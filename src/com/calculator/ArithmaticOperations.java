@@ -12,7 +12,24 @@ public class ArithmaticOperations  implements CalculatorService{
 	public double substractionService(double a, double c) {
 		double result = a-c;
 		
-		return c;
+		return result;
+	}
+
+	@Override
+	public double multiplicationService(double a, double c) {
+		double result = a *c;
+		return result;
+	}
+
+	@Override
+	public double divisionService(double a, double c) {
+		
+		double result = a/c;
+		
+		
+		
+		
+		return result;
 	}
 
 }
